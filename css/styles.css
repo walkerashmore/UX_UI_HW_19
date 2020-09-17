@@ -1,0 +1,249 @@
+body
+{
+    background-color: #DDDDDD;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation
+{
+    width: 100%;
+    position: relative;
+}
+
+.logo
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 25px;
+    left: 25px;
+}
+
+.logo-img
+{
+    width: 100%;
+}
+
+nav
+{
+    float: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 35px;
+}
+nav li
+{
+    float: left;
+    margin: 10px 30px;
+}
+nav li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    border-bottom: 2px solid blue;
+}
+section
+{
+    clear: both;
+    padding: 30px;
+}
+
+.sectiontitle
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 20px;
+    text-decoration: underline #3B59FF;
+}
+
+.row-float:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-float-1
+{
+  float: left;
+  width: 70%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.column-float-2
+{
+    float: left;
+    width: 30%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.skillsSectionTitle
+{
+    text-align: center;
+    margin: 0;
+}
+
+.skillslist
+{
+    display: block;
+    text-align: center;
+}
+
+.skillslist ul
+{
+    text-align: left;
+    list-style-position: inside;
+    display: inline-block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.wrapper
+{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+}
+
+.casestudies
+{
+    width:90%;
+    text-align: center;
+    margin:0px auto;
+}
+
+.casestudies img
+{
+    width: 250px;
+}
+
+.slick-slide
+{
+    margin:10px;
+}
+
+.slick-slide img
+{
+    width:100%;
+}
+
+.slick-prev:before, .slick-next:before
+{
+    color: blue;
+}
+
+.aboutMe
+{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.portfolioAboutMe, footer
+{
+    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 85%, rgba(59,89,255,1) 100%);
+    color: white;
+    position: relative;
+}
+.portfolioHeader
+{
+    padding: 50px 100px 150px 150px;
+
+}
+
+.portfolioContact, footer
+{
+    color: white;
+    position: relative;
+}
+
+h1
+{
+    color: #3B59FF;
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subtitle
+{
+    color: black;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+}
+
+footer
+{
+    background: rgb(0,0,0);
+    background: linear-gradient(225deg, rgba(0,0,0,1) 85%, rgba(59,89,255,1) 100%);
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/* footer .sectiontitle
+{ 
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+} */
+
+footer .contact
+{
+    width: 100%;
+    margin: 10px 200px 10px 200px;
+}
+
+footer .contact div
+{
+    float: left;
+    width: 50%;
+}
+
+footer .resume
+{
+    padding-top: 50px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+footer .resume a
+{
+    background-color: white;
+    color: black;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer .resume a:hover
+{
+    text-decoration: none;
+    background-color: #3B59FF;
+}
