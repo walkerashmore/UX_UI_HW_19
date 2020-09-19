@@ -60,13 +60,17 @@ section
     padding: 30px;
 }
 
+section h3:hover
+{
+    text-decoration: underline #3B59FF;
+}
+
 .sectiontitle
 {
     text-align: center;
     font-size: 40px;
     margin: 0px;
     padding-bottom: 20px;
-    text-decoration: underline #3B59FF;
 }
 
 .row-float:after
@@ -235,15 +239,16 @@ footer .resume
 
 footer .resume a
 {
-    background-color: white;
-    color: black;
+    background-color: #3B59FF;
+    color: white;
     padding: 20px 10px;
-    border-radius: 10px;
+    border-radius: 4px;
     text-decoration: none;
 }
 
 footer .resume a:hover
 {
     text-decoration: none;
-    background-color: #3B59FF;
+    color: #3B59FF;
+    background-color: white;
 }
